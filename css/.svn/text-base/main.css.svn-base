@@ -1,0 +1,292 @@
+html,body,div{
+	margin:0;
+	padding:0;
+	font-family:"微软雅黑",Arial,sans-serif;
+}
+
+input,button,p,h1,h2,h3,h4,h5,h6,ul,select{
+	font-family:"微软雅黑",Arial,sans-serif;
+}
+
+#app-set, #description, .onetime{
+	float:left;
+}
+
+#content{
+	width:1000px;
+	padding:100px 0 50px 0;
+}
+
+#app-set{
+	padding:30px 20px 0 10px;
+	display:none;
+}
+
+#description{
+	display:none;
+	padding-top:30px;
+}
+
+#description div{
+	
+	border-top:1px solid #aaa;
+	height:570px;
+}
+
+.delete-one{
+	float:right;
+	margin-right:40px;
+	font-size:2em;
+	font-weight:bold;
+	color:#a0a0a0;
+}
+.delete-one:hover{
+	color:#808080;
+	cursor:default;
+}
+
+.time-title{
+	height:30px;
+	overflow:hidden;
+}
+
+.time-title h3{
+	margin:0 0 10px 10px;
+}
+
+.overlay{
+	padding:5px 10px;
+	border-top:1px solid #aaa;
+	border-left:1px solid #bbb;
+}
+
+.pic-frame{
+//	padding:10px;
+    border-radius: 4px 4px 4px 4px;
+}
+
+.pic-bound{
+	position:relative;
+	overflow: hidden;
+	width:800px;
+	height:560px;
+	z-index:1;
+}
+.fnlpic{
+	position:absolute;
+	left:0px;
+	top:50%;
+	margin-top: -400px;
+}
+
+#timeline{
+	width:400px;
+	float:left;
+	height:800px;
+	margin:30px 0 0 50px;
+}
+
+#toolbar{
+	position:fixed;
+	left:0;
+	top:0;
+	
+	background-color:#3C8DC5;
+	
+	width:100%;
+	padding:10px 0;
+	z-index:1000;
+	font-size:22px;
+	
+    border-bottom: 1px solid #E5E5E5;
+	box-shadow:#D3D3D3 1px 2px 2px 0;
+}
+
+#toolbar h1{
+	float:left;
+	margin:0;
+	padding:0 20px;
+	color: #FFFFFF;
+	font-family:Arial,sans-serif;
+}
+
+.back-color{
+	position:absolute;
+	left:0;
+	top:0;
+	z-index:-1;
+	width:100%;
+	height:100%;
+	background-color:#eee;
+	opacity:0.7;
+}
+.cls{
+	clear:both;
+}
+
+.home-search{
+	position:fixed;
+	left:50%;
+	margin-left:-250px;
+	top:30%;
+}
+
+.top-search{
+	float:left;
+	margin-left:100px;
+}
+
+
+
+#select-date {
+	float:left;
+	vertical-align:bottom;
+	background-color: #FFFFFF;
+	padding:8px 15px;
+	border:1px solid gray;
+	border-radius: 4px 4px 4px 4px;
+	box-shadow:#808080 2px 2px 5px 0;
+}
+
+#select-date input, #select-date select{
+	display:inline-block;
+	font-size:22px;
+	border:0px;
+	border-left:1px solid #d0d0d0;
+	text-align:right;
+}
+
+#set-bar{
+	float: right;
+}
+
+#addone, #set-bar button, #apply-set, #cancle-set{
+    background-color: #F0F0F0;
+    background-image: url("http://chatianqi.org/pics/button-back.png");
+	background-position: center center;
+    border: 1px solid #666666;
+
+    display: inline-block;
+    font-size: 22px;
+    margin-right: 10px;
+    padding: 5px 15px;
+	
+    border-radius: 3px 3px 3px 3px;
+    box-shadow: #808080 2px 2px 5px 0;	
+}
+
+#addone:hover, #set-bar button:hover, #apply-set:hover, #cancle-set:hover{
+    background-image: url("http://chatianqi.org/pics/button-hover.png");
+}
+
+#addone{
+	font-size:22px;
+
+	padding:8px 25px;
+	margin-left:20px;
+	
+	color:#000000;
+	text-decoration:none;
+}
+
+#setchange {
+	background-color:#FEFEFE;
+	text-align:left;
+	position:fixed;
+	left:0px;
+	top:70px;
+	padding:20px 10px 12px 10px;
+	border:none;
+	border-bottom:1px solid gray;
+	width:230px;
+	z-index:102;
+}
+
+#apply-set, #cancle-set{
+	display:none;
+	padding:3px 10px;
+	margin-right:10px;
+	font-size:20px;
+}
+
+#image-set input{
+	width:60px;
+}
+
+#app-set h3{
+	margin:30px 0 10px 0;
+}
+
+#app-set ul{
+	margin:0;
+}
+#app-set li{
+	margin:3px 0 0 0;
+}
+
+#app-set h4{
+	margin:10px 0 5px 0;
+}
+
+#button-set{
+	float:left;
+	border:1px outset #CDCDCD;
+	border-radius: 4px 4px 4px 4px;
+}
+
+#set-bar #moveleft,#set-bar #moveright{
+	font-size:3em;
+	padding:6px 20px;
+	margin:0;
+	border:0;
+	background-color:#e0e0e0;
+}
+
+#set-bar #moveleft:hover,#set-bar #moveright:hover{
+	background-color:#a0a0a0;
+}
+
+#nextone{
+	display:none;
+}
+
+#footbar{
+	background-color:#FEFEFE;
+		
+	position:fixed;
+	left:0;
+	bottom:0;
+	
+	padding:5px 0;
+	font-size:20px;
+	
+	border-top:1px solid #d3d3d3;
+	
+	width:100%;
+	z-index:100;
+	box-shadow:#808080 2px -1px 3px 0;
+}
+
+#footbar img{
+	height:24px;
+	width:auto;
+	margin-left:5px;
+	border:none;
+}
+
+.donate{
+	margin-left:20px;
+
+}
+
+#footbar a{
+	text-decoration:none;
+}
+
+#footbar a:hover{
+	text-decoration:underline;
+}
+
+.fright{
+	float:right;
+}

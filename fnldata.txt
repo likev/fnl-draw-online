@@ -1,0 +1,116 @@
+Variable: fnl
+Type: file
+filename:       fnl_20110102_00_00_c
+path:   /home/ubuntu/mydata/fnldata/2011/fnl_20110102_00_00_c
+   file global attributes:
+   dimensions:
+      lat_3 = 181
+      lon_3 = 360
+      lv_PVL2 = 2
+      lv_ISBL3 = 26
+      lv_GPML4 = 3
+      lv_DBLY5 = 4
+      lv_ISBL6 = 2
+      lv_ISBL7 = 21
+      lv_SIGY8 = 4
+      lv_ISBL9 = 6
+   variables:
+      float PRES_3_LCBL_ave ( lat_3, lon_3 )
+         center :       US National Weather Service - NCEP (WMC)
+         long_name :    Pressure
+         units :        Pa
+         _FillValue :   1e+20
+         level_indicator :      212
+         grid_number :  3
+         parameter_table_version :      2
+         parameter_number :     1
+         model :        Spectral Statistical Interpolation (SSI) analysis from "
+Final" run.
+         forecast_time :        0
+         forecast_time_units :  hours
+         initial_time : 01/02/2011 (00:00)
+
+      float PRES_3_LCTL_ave ( lat_3, lon_3 )
+         center :       US National Weather Service - NCEP (WMC)
+         long_name :    Pressure
+         units :        Pa
+         _FillValue :   1e+20
+         level_indicator :      213
+         grid_number :  3
+         parameter_table_version :      2
+         parameter_number :     1
+         model :        Spectral Statistical Interpolation (SSI) analysis from "
+Final" run.
+         forecast_time :        0
+         forecast_time_units :  hours
+
+
+Variable: lv_ISBL3 (coordinate)
+Type: integer
+Total Size: 104 bytes
+            26 values
+Number of Dimensions: 1
+Dimensions and sizes:   [lv_ISBL3 | 26]
+Coordinates:
+Number Of Attributes: 2
+  long_name :   isobaric level
+  units :       hPa
+(0)     10
+(1)     20
+(2)     30
+(3)     50
+(4)     70
+(5)     100
+(6)     150
+(7)     200
+(8)     250
+(9)     300
+(10)    350
+(11)    400
+(12)    450
+(13)    500
+(14)    550
+(15)    600
+(16)    650
+(17)    700
+(18)    750
+(19)    800
+(20)    850
+(21)    900
+(22)    925
+(23)    950
+(24)    975
+(25)    1000
+		 
+		 
+Variable: lv_ISBL7 (coordinate)
+Type: integer
+Total Size: 84 bytes
+            21 values
+Number of Dimensions: 1
+Dimensions and sizes:   [lv_ISBL7 | 21]
+Coordinates:
+Number Of Attributes: 2
+  long_name :   isobaric level
+  units :       hPa
+(0)     100
+(1)     150
+(2)     200
+(3)     250
+(4)     300
+(5)     350
+(6)     400
+(7)     450
+(8)     500
+(9)     550
+(10)    600
+(11)    650
+(12)    700
+(13)    750
+(14)    800
+(15)    850
+(16)    900
+(17)    925
+(18)    950
+(19)    975
+(20)    1000
