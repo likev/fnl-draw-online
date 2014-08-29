@@ -92,7 +92,7 @@ $(function(){
 
 		$('#overlay-set input:checked').each(function(){
 			//pics/logo_twitter.png
-			var url = 'http://chatianqi.org/ncl.php?overlay='+$(this).attr('overlay')+ '&datetime='+ timestr + '&imgheight=' + $('#imgwidth').val() + '&' + paramSaved;
+			var url = 'http://fnl.tianqitu.net/ncl.php?overlay='+$(this).attr('overlay')+ '&datetime='+ timestr + '&imgheight=' + $('#imgwidth').val() + '&' + paramSaved;
 			
 			var newoverlay = $('#nextone .overlay').clone();
 
